@@ -6,6 +6,7 @@ import Footer from './public/components/Footer'
 import Animation from './public/components/Animation'
 import WorkingProcess from './public/components/WorkingProcess'
 import DownloadAppPage from './public/components/DownloadAppPage'
+import HowItWork from './public/components/HowItWork'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <FeatureSection/>
+      <HowItWork/>
       <WorkingProcess/>
       <DownloadAppPage/>
       <Footer/>
