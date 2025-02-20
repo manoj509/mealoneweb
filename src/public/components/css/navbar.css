@@ -1,0 +1,13 @@
+@keyframes scaleAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .whatsapp-icon {
+    animation: scaleAnimation 1.5s infinite ease-in-out;
+  }
+  

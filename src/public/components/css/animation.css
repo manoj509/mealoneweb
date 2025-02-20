@@ -1,0 +1,23 @@
+@keyframes moveFromRightToLeft {
+    0% {
+      transform: translateX(100vw);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-30vw);
+    }
+  }
+  
+  .logo-animation {
+    animation: moveFromRightToLeft 2s ease-in-out forwards;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 100px;
+    height: 100px;
+  }
+  
